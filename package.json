@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ig": "^0.0.5"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.2"
+  }
 }
