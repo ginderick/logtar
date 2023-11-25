@@ -10,7 +10,9 @@ async function init() {
 
 async function main() {
   const logger = await init();
-  logger.info("Hello World!\n");
+  setInterval(() => {
+    logger.critical("This is critical");
+  }, 1000);
 }
 
 main();
